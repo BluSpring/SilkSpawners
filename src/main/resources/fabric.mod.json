@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "silkspawners",
+	"version": "${version}",
+	"name": "SilkSpawners",
+	"description": "Because somehow I do not believe anyone can make a competent silk spawners mod for some fucking reason.",
+	"authors": [
+		"BluSpring"
+	],
+	"contact": {
+		"sources": "https://github.com/BluSpring/SilkSpawners"
+	},
+	"license": "MIT",
+	"icon": "assets/silkspawners/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.bluspring.silkspawners.SilkSpawners"
+		]
+	},
+	"mixins": [
+		"silkspawners.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
